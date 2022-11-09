@@ -3,6 +3,9 @@ package pwo.seq;
 import java.math.BigDecimal;
 import pwo.utils.SequenceGenerator;
 
+/**
+ * Komentarz dokumentujący by Jakub Nowakowski
+ */
 abstract class Generator implements SequenceGenerator {
 
     protected int lastIndex = 0;

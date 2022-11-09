@@ -5,6 +5,9 @@ import java.nio.file.Paths;
 import pwo.seq.SeqType;
 import pwo.utils.SequenceTools;
 
+/**
+ * Komentarz dokumentujący by Jakub Nowakowski
+ */
 public class SeqToFileApp {
 
     protected SeqType seqType = null;
@@ -31,11 +34,17 @@ public class SeqToFileApp {
         return seqType != null && from >= 0 && to >= 0;
     }
 
+    /**
+     * Komentarz dokumentujący by Jakub Nowakowski
+     */
     protected boolean wirteSeq() {
         return SequenceTools.writeToFile(seqType.getGenerator(),
                 from, to, fileName);
     }
 
+    /**
+     * Komentarz dokumentujący by Jakub Nowakowski
+     */
     public void run(String[] args) {
         System.out.println("Sequence to file CLI app");
 

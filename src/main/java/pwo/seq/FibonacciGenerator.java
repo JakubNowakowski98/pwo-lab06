@@ -2,6 +2,9 @@ package pwo.seq;
 
 import java.math.BigDecimal;
 
+/**
+ * Komentarz dokumentujący by Jakub Nowakowski
+ */
 public class FibonacciGenerator extends Generator {
 
     public FibonacciGenerator() {

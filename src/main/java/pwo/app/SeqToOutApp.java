@@ -2,6 +2,9 @@ package pwo.app;
 
 import pwo.utils.SequenceTools;
 
+/**
+ * Komentarz dokumentujący by Jakub Nowakowski
+ */
 public class SeqToOutApp extends SeqToFileApp {
 
     @Override
@@ -14,6 +17,9 @@ public class SeqToOutApp extends SeqToFileApp {
         return seqType != null && from >= 0 && to >= 0;
     }
 
+    /**
+     * Komentarz dokumentujący by Jakub Nowakowski
+     */
     @Override
     protected boolean wirteSeq() {
 

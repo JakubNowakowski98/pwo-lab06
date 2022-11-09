@@ -1,5 +1,8 @@
 package pwo.app;
 
+/**
+ * Komentarz dokumentujący by Jakub Nowakowski
+ */
 public class Sequence {
 
     public static void main(String[] args) {
